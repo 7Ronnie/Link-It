@@ -19,7 +19,8 @@ body{
 input{
     width: 100%;
     border: 1px solid #5f9341;
-    padding: 0 10px;
+    border-radius: 4px;
+    padding: 10px 10px;
     margin: 10px 0px;
     box-sizing: border-box;
 }
