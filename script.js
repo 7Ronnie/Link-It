@@ -14,10 +14,13 @@ saveButton.addEventListener("click",function () {
 function renderleads() {
 myleads.map((x) => {
     let listitem = document.createElement("li");
-    listitem.innerHTML = x;
-    
+    listitem.innerHTML += x;
     list.appendChild(listitem);
 })
 }
+
+list.addEventListener("click", function (e){
+    e.target.style.text-decoration('line-through');
+})
 
 
